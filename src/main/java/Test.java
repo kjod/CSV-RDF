@@ -19,6 +19,9 @@
 package jena.examples.rdf;
 
 import org.apache.jena.lang.csv.CSV2RDF;
+import org.apache.jena.propertytable.PropertyTable;
+import org.apache.jena.propertytable.impl.PropertyTableArrayImpl;
+import org.apache.jena.propertytable.impl.PropertyTableBuilder;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.vocabulary.VCARD;
 
@@ -34,8 +37,8 @@ public class Test extends Object {
     static String fullName = "John Smith";
     static String given = "John";
     static String family = "Smith";
-    static String csvFile = "src/main/java/WB_test.csv";
-    static String outFile = "src/main/java/WB_test.rdf";
+    static String csvFile = "src/main/java/test1.csv";
+    static String outFile = "src/main/java/test1.rdf";
 
     public static void main(String args[]) {
         Test test = new Test();
@@ -100,8 +103,21 @@ public class Test extends Object {
             //Model m = RDFDataMgr.loadModel("test.csv") ;
             //classic way to load:
             Model m = ModelFactory.createDefaultModel();
-            m.read(br, "http://example.com", "csv");
-            m.setNsPrefix("test", "http://example.com#");
+            //PropertyTableBuilder b = new PropertyTableBuilder();
+            //PropertyTable p = b.buildPropetyTableArrayImplFromCsv(csvFile);
+            //System.out.println(p.getColumns());
+            //System.out.println(p.getAllRows());
+            for column in file:
+                m.add(column);
+
+            for row in file:
+                for value in row:
+                    m.addLiteral(column[i], value, index)
+
+
+            //m.read(csvFile);
+            //m.read(br, "http://example.com", "csv");
+            //m.setNsPrefix("test", "http://example.com#");
             m.write(fop, "RDF/XML"); //RDF/XML", "RDF/XML-ABBREV", "N-TRIPLE" and "N3
         } catch (FileNotFoundException e) {
             e.printStackTrace();
