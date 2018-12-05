@@ -1,5 +1,5 @@
 ## Install instructions
-
+---
 |Requirement|Recommended Version|
 |---		|---				|
 |python3    |3.5				|
@@ -24,4 +24,9 @@ Intialise database
 python manage.py db init
 python manage.py db migrate
 python manage.py db upgrade
+```
+
+Upload data
+```
+python add_data.py
 ```
