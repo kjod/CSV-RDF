@@ -80,6 +80,8 @@ class Wine(BaseModel, db.Model):
         self.sweetness = sweetness
         self.wine_type = wine_type 
 
+    def __repr__(self):
+        return self.name
 
 class Ingredients(BaseModel, db.Model):
     """Model for the graps table"""
