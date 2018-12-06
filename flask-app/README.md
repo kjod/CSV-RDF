@@ -18,6 +18,13 @@ Create database
 sudo -u postgres psql
 CREATE DATABASE incognito;
 ```
+For Windows:
+
+Add the postgressql/bin to path
+
+```
+psql -U postgres template1
+```
 
 Intialise database
 ```
