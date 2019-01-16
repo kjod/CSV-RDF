@@ -1,13 +1,15 @@
-
 import com.complexible.stardog.api.Connection;
 import com.complexible.stardog.api.ConnectionConfiguration;
 import com.complexible.stardog.api.ConnectionPool;
 import com.complexible.stardog.api.ConnectionPoolConfig;
 import com.complexible.stardog.api.admin.AdminConnection;
 import com.complexible.stardog.api.admin.AdminConnectionConfiguration;
+import com.complexible.stardog.virtual.api.VirtualGraph;
 import com.complexible.stardog.virtual.api.admin.VirtualGraphAdminConnection;
+import org.quartz.impl.jdbcjobstore.PostgreSQLDelegate;
 
 import java.sql.DriverManager;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 //import java.sql.Connection;
@@ -36,8 +38,9 @@ public class TestPostgres {
     public java.sql.Connection connectToPostgres() {
 
         try {
-            //Register Postgres
-            Class.forName("com.ddtek.jdbc.postgresql.PostgreSQLdriver");
+            //Register Postgres drivers if below method fails
+            Class.forName("org.postgresql.Driver");
+            //Class.forName("com.ddtek.jdbc.postgresql.PostgreSQLdriver");
         } catch (Exception e){
             System.out.println(e);
         }
@@ -47,7 +50,6 @@ public class TestPostgres {
 
             // When this class first attempts to establish a connection, it automatically loads any JDBC 4.0 drivers found within
             // the class path. Note that your application must manually load any JDBC drivers prior to version 4.0.
-//			Class.forName("org.postgresql.Driver");
 
             System.out.println("Connected to PostgreSQL database!");
             Statement statement = connection.createStatement();
@@ -122,7 +124,49 @@ public class TestPostgres {
         // creates the Stardog connection pool
         ConnectionPool connectionPool = t.createConnectionPool(connectionConfig);
 
-        //VirtualGraphAdminConnection
+        try (final AdminConnection aConn = AdminConnectionConfiguration.toServer(url)
+                .credentials(username, password)
+                .connect()) {
+            VirtualGraphAdminConnection vir = aConn.as(VirtualGraphAdminConnection.class);
+            Properties properties = new Properties();
 
+            try {
+                //Register Postgres drivers if below method fails
+                Class.forName("org.postgresql.Driver");
+                System.out.println("org.postgresql.Driver exists ");
+                //Class.forName("com.ddtek.jdbc.postgresql.PostgreSQLdriver");
+            } catch (Exception e){
+                System.out.println(e);
+            }
+
+            //properties.put("base","http://example.com/test/");
+            System.out.println(org.postgresql.Driver.isRegistered());
+            properties.put("jdbc.driver", "org.postgresql.Driver");
+            properties.put("jdbc.url","jdbc:postgresql://localhost:5432/incognitotest2");
+            properties.put("jdbc.username","postgres");
+            properties.put("jdbc.password","postgres");
+            Iterable<com.stardog.stark.Statement> emptyIterator = new ArrayList<com.stardog.stark.Statement>();
+
+            vir.addGraph("Test2", properties, emptyIterator);
+            Collection<VirtualGraph> x = vir.getGraphs();
+            System.out.println(x);
+            VirtualGraph test_x = x.iterator().next();
+            System.out.println("Name");
+            System.out.println(test_x.getName());
+            System.out.println("Mappings");
+            Set<com.stardog.stark.Statement> mappings = test_x.getMappings();
+            System.out.println(test_x.getMappings());
+            System.out.println("Options");
+            System.out.println(test_x.getOptions());
+            //How?
+            //I want to change this command #stardog-admin virtual add --format r2rml test.properties test.ttl
+            //vir.addGraph(....);
+            aConn.close();
+        }
+        /*jdbc.url=jdbc:mysql://localhost/dept
+        jdbc.username=admin
+        jdbc.password=admin
+        jdbc.driver=com.mysql.jdbc.Driver
+        */
     }
 }

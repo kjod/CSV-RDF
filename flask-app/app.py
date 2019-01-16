@@ -10,7 +10,7 @@ app.config['DEBUG'] = True
 POSTGRES = {
     'user': 'postgres',
     'pw': 'postgres',
-    'db': 'incognito',
+    'db': 'incognitotest2',
     'host': 'localhost',
     'port': '5432',
 }

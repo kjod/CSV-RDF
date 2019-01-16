@@ -1,19 +1,19 @@
 name,region_id,body,sweetness,wine_type
-Chateau des Tours,30,Balanced,Medium,White
-Villeneuve Rivesaltes Ambre,1,Balanced,Sweet,White
-Papillon Blanc,1,Balanced,Medium,White
-Feudi di San Gregorio,9,Balanced,Medium,White
-Mastroberardino,9,Balanced,Medium,White
-Cloudy Bay Sauvignon Blanc,5,Balanced,off-dry,White
-Pavillan blanc de chateaux margaux,26,Full,off-dry,White
-Sancere les baronnes,1,Balanced,off-dry,White
-Dom Perignon Brut,28,Full,Dry,White
-Bollinger R.D Extra Brut,28,Full,Dry,White
-Mount Pleasant Elizabeth Semillon,4,Balanced,Medium,White
-Die Ouwingerdreeks Kokerboom,16,Light,Sweet,White
-Bionic Frog,2,Balanced,,Red
-Boekenhoutskloof The Chocolate Block,3,Full,,Red
-Shafer Vineyards Relentless,23,Light,Medium,Red
-Ridge Vineyards Geyserville,23,Light,Sweet,Red
-Matchbook Tinto Rey,23,Full,Medium,Red
-Sessantanni Old Vines Primitivo di Manduria,9,Full,,Red
+Chateau des Tours,Malborough,Balanced,Medium,White
+Villeneuve Rivesaltes Ambre,Atlas Mountains,Balanced,Sweet,White
+Papillon Blanc,Atlas Mountains,Balanced,Medium,White
+Feudi di San Gregorio,Rio Negro,Balanced,Medium,White
+Mastroberardino,Rio Negro,Balanced,Medium,White
+Cloudy Bay Sauvignon Blanc,Stellenbosch,Balanced,off-dry,White
+Pavillan blanc de chateaux margaux,Ionian Islands,Full,off-dry,White
+Sancere les baronnes,Atlas Mountains,Balanced,off-dry,White
+Dom Perignon Brut,Piedmont,Full,Dry,White
+Bollinger R.D Extra Brut,Piedmont,Full,Dry,White
+Mount Pleasant Elizabeth Semillon,Stellenbosch,Balanced,Medium,White
+Die Ouwingerdreeks Kokerboom,Burgundy,Light,Sweet,White
+Bionic Frog,Durbanville,Balanced,,Red
+Boekenhoutskloof The Chocolate Block,Constantia,Full,,Red
+Shafer Vineyards Relentless,Macedonia,Light,Medium,Red
+Ridge Vineyards Geyserville,Macedonia,Light,Sweet,Red
+Matchbook Tinto Rey,Macedonia,Full,Medium,Red
+Sessantanni Old Vines Primitivo di Manduria,Maipo Valley,Full,,Red
