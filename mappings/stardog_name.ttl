@@ -1,0 +1,322 @@
+@prefix : <http://api.stardog.com/> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix stardog: <tag:stardog:api:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<tag:stardog:api:mapping:generated:mapping-1229172436> rr:predicateObjectMap [
+    rr:predicateMap [
+        rr:constant <http://api.stardog.com/tasting_note#tastingnote_id>
+    ] ;
+        rr:objectMap [
+            rr:column "\"tastingnote_id\"" ;
+                rr:datatype xsd:integer
+        ]
+] , [
+    rr:predicateMap [
+        rr:constant <http://api.stardog.com/tasting_note#ref-wine_id>
+    ] ;
+        rr:objectMap [
+            rr:template "http://api.stardog.com/wine/name={\"tastingnote_id\"}" ;
+                rr:termType rr:IRI
+        ]
+] ;
+    a rr:TriplesMap ;
+    rr:predicateObjectMap [
+        rr:objectMap [
+            rr:column "\"note\"" ;
+                rr:datatype xsd:string
+        ] ;
+            rr:predicateMap [
+                rr:constant <http://api.stardog.com/tasting_note#note>
+            ]
+    ] ;
+    rr:logicalTable [
+        rr:sqlQuery """SELECT *
+FROM \"public\".\"tasting_note\"
+INNER JOIN \"public\".\"wine\" ON \"tasting_note\".\"wine_id\" = \"wine\".\"name\""""
+    ] ;
+    rr:predicateObjectMap [
+        rr:objectMap [
+            rr:datatype xsd:string ;
+                rr:column "\"wine_id\""
+        ] ;
+            rr:predicateMap [
+                rr:constant <http://api.stardog.com/tasting_note#wine_id>
+            ]
+    ] , [
+        rr:objectMap [
+            rr:constant :tasting_note
+        ] ;
+            rr:predicateMap [
+                rr:constant rdf:type
+            ]
+    ] ;
+    rr:subjectMap [
+        rr:template "http://api.stardog.com/tasting_note/tastingnote_id={\"tastingnote_id\"}" ;
+            rr:termType rr:IRI
+    ] .
+
+<tag:stardog:api:mapping:generated:mapping-4788941> rr:logicalTable [
+    rr:tableName "\"public\".\"country\""
+] ;
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/country#name>
+        ] ;
+            rr:objectMap [
+                rr:datatype xsd:string ;
+                    rr:column "\"name\""
+            ]
+    ] ;
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+            rr:template "http://api.stardog.com/country/name={\"name\"}"
+    ] ;
+    a rr:TriplesMap ;
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant rdf:type
+        ] ;
+            rr:objectMap [
+                rr:constant :country
+            ]
+    ] .
+
+<tag:stardog:api:mapping:generated:mapping-2142314965> rr:predicateObjectMap [
+    rr:predicateMap [
+        rr:constant <http://api.stardog.com/wine#name>
+    ] ;
+        rr:objectMap [
+            rr:column "\"name\"" ;
+                rr:datatype xsd:string
+        ]
+] , [
+    rr:predicateMap [
+        rr:constant <http://api.stardog.com/wine#wine_type>
+    ] ;
+        rr:objectMap [
+            rr:datatype xsd:string ;
+                rr:column "\"wine_type\""
+        ]
+] ;
+    a rr:TriplesMap ;
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/wine#region_id>
+        ] ;
+            rr:objectMap [
+                rr:datatype xsd:string ;
+                    rr:column "\"region_id\""
+            ]
+    ] , [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/wine#ref-region_id>
+        ] ;
+            rr:objectMap [
+                rr:template "http://api.stardog.com/region/name={\"name\"}" ;
+                    rr:termType rr:IRI
+            ]
+    ] , [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/wine#sweetness>
+        ] ;
+            rr:objectMap [
+                rr:column "\"sweetness\"" ;
+                    rr:datatype xsd:string
+            ]
+    ] , [
+        rr:predicateMap [
+            rr:constant rdf:type
+        ] ;
+            rr:objectMap [
+                rr:constant :wine
+            ]
+    ] ;
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+            rr:template "http://api.stardog.com/wine/name={\"name\"}"
+    ] ;
+    rr:logicalTable [
+        rr:sqlQuery """SELECT *
+FROM \"public\".\"wine\"
+INNER JOIN \"public\".\"region\" ON \"wine\".\"region_id\" = \"region\".\"name\""""
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/wine#body>
+        ] ;
+            rr:objectMap [
+                rr:datatype xsd:string ;
+                    rr:column "\"body\""
+            ]
+    ] .
+
+<tag:stardog:api:mapping:generated:mapping-1781310744> rr:logicalTable [
+    rr:tableName "\"public\".\"grape\""
+] ;
+    a rr:TriplesMap ;
+    rr:subjectMap [
+        rr:template "http://api.stardog.com/grape/name={\"name\"}" ;
+            rr:termType rr:IRI
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/grape#colour>
+        ] ;
+            rr:objectMap [
+                rr:datatype xsd:string ;
+                    rr:column "\"colour\""
+            ]
+    ] , [
+        rr:predicateMap [
+            rr:constant rdf:type
+        ] ;
+            rr:objectMap [
+                rr:constant :grape
+            ]
+    ] , [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/grape#name>
+        ] ;
+            rr:objectMap [
+                rr:column "\"name\"" ;
+                    rr:datatype xsd:string
+            ]
+    ] .
+
+<tag:stardog:api:mapping:generated:mapping-128376012> rr:predicateObjectMap [
+    rr:objectMap [
+        rr:datatype xsd:integer ;
+            rr:column "\"ingredients_id\""
+    ] ;
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/ingredients#ingredients_id>
+        ]
+] , [
+    rr:objectMap [
+        rr:termType rr:IRI ;
+            rr:template "http://api.stardog.com/grape/name={\"ingredients_id\"}"
+    ] ;
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/ingredients#ref-grape_id>
+        ]
+] ;
+    rr:logicalTable [
+        rr:sqlQuery """SELECT *
+FROM \"public\".\"ingredients\"
+INNER JOIN \"public\".\"wine\" ON \"ingredients\".\"wine_id\" = \"wine\".\"name\"
+INNER JOIN \"public\".\"grape\" ON \"ingredients\".\"grape_id\" = \"grape\".\"name\""""
+    ] ;
+    rr:predicateObjectMap [
+        rr:objectMap [
+            rr:column "\"grape_id\"" ;
+                rr:datatype xsd:string
+        ] ;
+            rr:predicateMap [
+                rr:constant <http://api.stardog.com/ingredients#grape_id>
+            ]
+    ] ;
+    a rr:TriplesMap ;
+    rr:predicateObjectMap [
+        rr:objectMap [
+            rr:termType rr:IRI ;
+                rr:template "http://api.stardog.com/wine/name={\"ingredients_id\"}"
+        ] ;
+            rr:predicateMap [
+                rr:constant <http://api.stardog.com/ingredients#ref-wine_id>
+            ]
+    ] , [
+        rr:objectMap [
+            rr:column "\"wine_id\"" ;
+                rr:datatype xsd:string
+        ] ;
+            rr:predicateMap [
+                rr:constant <http://api.stardog.com/ingredients#wine_id>
+            ]
+    ] , [
+        rr:objectMap [
+            rr:constant :ingredients
+        ] ;
+            rr:predicateMap [
+                rr:constant rdf:type
+            ]
+    ] ;
+    rr:subjectMap [
+        rr:template "http://api.stardog.com/ingredients/ingredients_id={\"ingredients_id\"}" ;
+            rr:termType rr:IRI
+    ] .
+
+<tag:stardog:api:mapping:generated:mapping-379414851> rr:predicateObjectMap [
+    rr:predicateMap [
+        rr:constant <http://api.stardog.com/alembic_version#version_num>
+    ] ;
+        rr:objectMap [
+            rr:column "\"version_num\"" ;
+                rr:datatype xsd:string
+        ]
+] ;
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+            rr:template "http://api.stardog.com/alembic_version/version_num={\"version_num\"}"
+    ] ;
+    rr:predicateObjectMap [
+        rr:objectMap [
+            rr:constant :alembic_version
+        ] ;
+            rr:predicateMap [
+                rr:constant rdf:type
+            ]
+    ] ;
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:tableName "\"public\".\"alembic_version\""
+    ] .
+
+<tag:stardog:api:mapping:generated:mapping-916440256> rr:predicateObjectMap [
+    rr:objectMap [
+        rr:constant :region
+    ] ;
+        rr:predicateMap [
+            rr:constant rdf:type
+        ]
+] ;
+    a rr:TriplesMap ;
+    rr:logicalTable [
+        rr:sqlQuery """SELECT *
+FROM \"public\".\"region\"
+INNER JOIN \"public\".\"country\" ON \"region\".\"country_id\" = \"country\".\"name\""""
+    ] ;
+    rr:subjectMap [
+        rr:termType rr:IRI ;
+            rr:template "http://api.stardog.com/region/name={\"name\"}"
+    ] ;
+    rr:predicateObjectMap [
+        rr:predicateMap [
+            rr:constant <http://api.stardog.com/region#ref-country_id>
+        ] ;
+            rr:objectMap [
+                rr:template "http://api.stardog.com/country/name={\"name\"}" ;
+                    rr:termType rr:IRI
+            ]
+    ] , [
+        rr:objectMap [
+            rr:column "\"name\"" ;
+                rr:datatype xsd:string
+        ] ;
+            rr:predicateMap [
+                rr:constant <http://api.stardog.com/region#name>
+            ]
+    ] , [
+        rr:objectMap [
+            rr:column "\"country_id\"" ;
+                rr:datatype xsd:string
+        ] ;
+            rr:predicateMap [
+                rr:constant <http://api.stardog.com/region#country_id>
+            ]
+    ] .
+
+

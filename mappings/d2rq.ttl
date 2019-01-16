@@ -1,0 +1,239 @@
+@prefix map: <#> .
+@prefix db: <> .
+@prefix vocab: <vocab/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
+@prefix jdbc: <http://d2rq.org/terms/jdbc/> .
+
+map:database a d2rq:Database;
+	d2rq:jdbcDriver "org.postgresql.Driver";
+	d2rq:jdbcDSN "jdbc:postgresql://localhost:5432/incognito";
+	d2rq:username "postgres";
+	d2rq:password "postgres";
+	.
+
+# Table alembic_version
+map:alembic_version a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "alembic_version/@@alembic_version.version_num|urlify@@";
+	d2rq:class vocab:alembic_version;
+	d2rq:classDefinitionLabel "alembic_version";
+	.
+map:alembic_version__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:alembic_version;
+	d2rq:property rdfs:label;
+	d2rq:pattern "alembic_version #@@alembic_version.version_num@@";
+	.
+map:alembic_version_version_num a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:alembic_version;
+	d2rq:property vocab:alembic_version_version_num;
+	d2rq:propertyDefinitionLabel "alembic_version version_num";
+	d2rq:column "alembic_version.version_num";
+	.
+
+# Table country
+map:country a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "country/@@country.country_id@@";
+	d2rq:class vocab:country;
+	d2rq:classDefinitionLabel "country";
+	.
+map:country__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:country;
+	d2rq:property rdfs:label;
+	d2rq:pattern "country #@@country.country_id@@";
+	.
+map:country_country_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:country;
+	d2rq:property vocab:country_country_id;
+	d2rq:propertyDefinitionLabel "country country_id";
+	d2rq:column "country.country_id";
+	d2rq:datatype xsd:integer;
+	.
+map:country_name a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:country;
+	d2rq:property vocab:country_name;
+	d2rq:propertyDefinitionLabel "country name";
+	d2rq:column "country.name";
+	.
+
+# Table grape
+map:grape a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "grape/@@grape.grape_id@@";
+	d2rq:class vocab:grape;
+	d2rq:classDefinitionLabel "grape";
+	.
+map:grape__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:grape;
+	d2rq:property rdfs:label;
+	d2rq:pattern "grape #@@grape.grape_id@@";
+	.
+map:grape_grape_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:grape;
+	d2rq:property vocab:grape_grape_id;
+	d2rq:propertyDefinitionLabel "grape grape_id";
+	d2rq:column "grape.grape_id";
+	d2rq:datatype xsd:integer;
+	.
+map:grape_name a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:grape;
+	d2rq:property vocab:grape_name;
+	d2rq:propertyDefinitionLabel "grape name";
+	d2rq:column "grape.name";
+	.
+map:grape_colour a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:grape;
+	d2rq:property vocab:grape_colour;
+	d2rq:propertyDefinitionLabel "grape colour";
+	d2rq:column "grape.colour";
+	.
+
+# Table ingredients
+map:ingredients a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "ingredients/@@ingredients.ingredients_id@@";
+	d2rq:class vocab:ingredients;
+	d2rq:classDefinitionLabel "ingredients";
+	.
+map:ingredients__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:ingredients;
+	d2rq:property rdfs:label;
+	d2rq:pattern "ingredients #@@ingredients.ingredients_id@@";
+	.
+map:ingredients_ingredients_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:ingredients;
+	d2rq:property vocab:ingredients_ingredients_id;
+	d2rq:propertyDefinitionLabel "ingredients ingredients_id";
+	d2rq:column "ingredients.ingredients_id";
+	d2rq:datatype xsd:integer;
+	.
+map:ingredients_grape_id__ref a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:ingredients;
+	d2rq:property vocab:ingredients_grape_id;
+	d2rq:refersToClassMap map:grape;
+	d2rq:join "ingredients.grape_id => grape.grape_id";
+	.
+map:ingredients_wine_id__ref a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:ingredients;
+	d2rq:property vocab:ingredients_wine_id;
+	d2rq:refersToClassMap map:wine;
+	d2rq:join "ingredients.wine_id => wine.wine_id";
+	.
+
+# Table region
+map:region a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "region/@@region.region_id@@";
+	d2rq:class vocab:region;
+	d2rq:classDefinitionLabel "region";
+	.
+map:region__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:region;
+	d2rq:property rdfs:label;
+	d2rq:pattern "region #@@region.region_id@@";
+	.
+map:region_region_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:region;
+	d2rq:property vocab:region_region_id;
+	d2rq:propertyDefinitionLabel "region region_id";
+	d2rq:column "region.region_id";
+	d2rq:datatype xsd:integer;
+	.
+map:region_name a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:region;
+	d2rq:property vocab:region_name;
+	d2rq:propertyDefinitionLabel "region name";
+	d2rq:column "region.name";
+	.
+map:region_country_id__ref a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:region;
+	d2rq:property vocab:region_country_id;
+	d2rq:refersToClassMap map:country;
+	d2rq:join "region.country_id => country.country_id";
+	.
+
+# Table tasting_note
+map:tasting_note a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "tasting_note/@@tasting_note.tastingnote_id@@";
+	d2rq:class vocab:tasting_note;
+	d2rq:classDefinitionLabel "tasting_note";
+	.
+map:tasting_note__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tasting_note;
+	d2rq:property rdfs:label;
+	d2rq:pattern "tasting_note #@@tasting_note.tastingnote_id@@";
+	.
+map:tasting_note_tastingnote_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tasting_note;
+	d2rq:property vocab:tasting_note_tastingnote_id;
+	d2rq:propertyDefinitionLabel "tasting_note tastingnote_id";
+	d2rq:column "tasting_note.tastingnote_id";
+	d2rq:datatype xsd:integer;
+	.
+map:tasting_note_note a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tasting_note;
+	d2rq:property vocab:tasting_note_note;
+	d2rq:propertyDefinitionLabel "tasting_note note";
+	d2rq:column "tasting_note.note";
+	.
+map:tasting_note_wine_id__ref a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:tasting_note;
+	d2rq:property vocab:tasting_note_wine_id;
+	d2rq:refersToClassMap map:wine;
+	d2rq:join "tasting_note.wine_id => wine.wine_id";
+	.
+
+# Table wine
+map:wine a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "wine/@@wine.wine_id@@";
+	d2rq:class vocab:wine;
+	d2rq:classDefinitionLabel "wine";
+	.
+map:wine__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:wine;
+	d2rq:property rdfs:label;
+	d2rq:pattern "wine #@@wine.wine_id@@";
+	.
+map:wine_wine_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:wine;
+	d2rq:property vocab:wine_wine_id;
+	d2rq:propertyDefinitionLabel "wine wine_id";
+	d2rq:column "wine.wine_id";
+	d2rq:datatype xsd:integer;
+	.
+map:wine_name a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:wine;
+	d2rq:property vocab:wine_name;
+	d2rq:propertyDefinitionLabel "wine name";
+	d2rq:column "wine.name";
+	.
+map:wine_body a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:wine;
+	d2rq:property vocab:wine_body;
+	d2rq:propertyDefinitionLabel "wine body";
+	d2rq:column "wine.body";
+	.
+map:wine_sweetness a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:wine;
+	d2rq:property vocab:wine_sweetness;
+	d2rq:propertyDefinitionLabel "wine sweetness";
+	d2rq:column "wine.sweetness";
+	.
+map:wine_wine_type a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:wine;
+	d2rq:property vocab:wine_wine_type;
+	d2rq:propertyDefinitionLabel "wine wine_type";
+	d2rq:column "wine.wine_type";
+	.
+map:wine_region_id__ref a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:wine;
+	d2rq:property vocab:wine_region_id;
+	d2rq:refersToClassMap map:region;
+	d2rq:join "wine.region_id => region.region_id";
+	.
+
