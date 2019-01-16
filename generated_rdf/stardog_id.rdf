@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://api.stardog.com/"
+	xmlns:rr="http://www.w3.org/ns/r2rml#"
+	xmlns:stardog="tag:stardog:api:"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+<rdf:Description rdf:about="tag:stardog:api:mapping:generated:mapping-1269407566">
+	<rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_459"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_462"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_465"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_468"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_473"/>
+	<rr:logicalTable rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_471"/>
+	<rr:subjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_472"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_460">
+	<rr:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_459">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_460"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_461"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_461">
+	<rr:constant rdf:resource="http://api.stardog.com/region"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_463">
+	<rr:constant rdf:resource="http://api.stardog.com/region#country_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_462">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_463"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_464"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_464">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"country_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_466">
+	<rr:constant rdf:resource="http://api.stardog.com/region#name"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_465">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_466"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_467"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_467">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"name"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_469">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"region_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_468">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_470"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_469"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_470">
+	<rr:constant rdf:resource="http://api.stardog.com/region#region_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_471">
+	<rr:sqlQuery rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT *
+FROM "public"."region"
+INNER JOIN "public"."country" ON "region"."country_id" = "country"."country_id"</rr:sqlQuery>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_472">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/region/region_id={"region_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_474">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/country/country_id={"region_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_473">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_475"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_474"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_475">
+	<rr:constant rdf:resource="http://api.stardog.com/region#ref-country_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_477">
+	<rr:constant rdf:resource="http://api.stardog.com/country"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_476">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_478"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_477"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_478">
+	<rr:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="tag:stardog:api:mapping:generated:mapping-1937370335">
+	<rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_476"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_481"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_484"/>
+	<rr:logicalTable rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_479"/>
+	<rr:subjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_480"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_479">
+	<rr:tableName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"public"."country"</rr:tableName>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_480">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/country/country_id={"country_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_482">
+	<rr:constant rdf:resource="http://api.stardog.com/country#country_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_481">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_482"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_483"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_483">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"country_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_485">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"name"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_484">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_486"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_485"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_486">
+	<rr:constant rdf:resource="http://api.stardog.com/country#name"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_488">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"name"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_487">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_489"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_488"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_489">
+	<rr:constant rdf:resource="http://api.stardog.com/grape#name"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="tag:stardog:api:mapping:generated:mapping-1029199921">
+	<rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_487"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_490"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_494"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_497"/>
+	<rr:logicalTable rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_493"/>
+	<rr:subjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_500"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_491">
+	<rr:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_490">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_491"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_492"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_492">
+	<rr:constant rdf:resource="http://api.stardog.com/grape"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_493">
+	<rr:tableName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"public"."grape"</rr:tableName>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_495">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"grape_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_494">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_496"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_495"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_496">
+	<rr:constant rdf:resource="http://api.stardog.com/grape#grape_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_498">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"colour"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_497">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_499"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_498"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_499">
+	<rr:constant rdf:resource="http://api.stardog.com/grape#colour"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_500">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/grape/grape_id={"grape_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_502">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"wine_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_501">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_503"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_502"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_503">
+	<rr:constant rdf:resource="http://api.stardog.com/tasting_note#wine_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="tag:stardog:api:mapping:generated:mapping-2022167997">
+	<rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_501"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_504"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_508"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_511"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_515"/>
+	<rr:logicalTable rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_507"/>
+	<rr:subjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_514"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_505">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"tastingnote_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_504">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_506"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_505"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_506">
+	<rr:constant rdf:resource="http://api.stardog.com/tasting_note#tastingnote_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_507">
+	<rr:sqlQuery rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT *
+FROM "public"."tasting_note"
+INNER JOIN "public"."wine" ON "tasting_note"."wine_id" = "wine"."wine_id"</rr:sqlQuery>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_509">
+	<rr:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_508">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_509"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_510"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_510">
+	<rr:constant rdf:resource="http://api.stardog.com/tasting_note"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_512">
+	<rr:constant rdf:resource="http://api.stardog.com/tasting_note#ref-wine_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_511">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_512"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_513"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_513">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/wine/wine_id={"tastingnote_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_514">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/tasting_note/tastingnote_id={"tastingnote_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_516">
+	<rr:constant rdf:resource="http://api.stardog.com/tasting_note#note"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_515">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_516"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_517"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_517">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"note"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_519">
+	<rr:constant rdf:resource="http://api.stardog.com/alembic_version"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_518">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_520"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_519"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_520">
+	<rr:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="tag:stardog:api:mapping:generated:mapping-378001371">
+	<rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_518"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_522"/>
+	<rr:logicalTable rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_521"/>
+	<rr:subjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_525"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_521">
+	<rr:tableName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"public"."alembic_version"</rr:tableName>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_523">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"version_num"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_522">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_524"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_523"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_524">
+	<rr:constant rdf:resource="http://api.stardog.com/alembic_version#version_num"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_525">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/alembic_version/version_num={"version_num"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_526">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/ingredients/ingredients_id={"ingredients_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:about="tag:stardog:api:mapping:generated:mapping-118594080">
+	<rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_528"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_531"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_534"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_537"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_540"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_543"/>
+	<rr:logicalTable rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_527"/>
+	<rr:subjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_526"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_527">
+	<rr:sqlQuery rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT *
+FROM "public"."ingredients"
+INNER JOIN "public"."wine" ON "ingredients"."wine_id" = "wine"."wine_id"
+INNER JOIN "public"."grape" ON "ingredients"."grape_id" = "grape"."grape_id"</rr:sqlQuery>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_529">
+	<rr:constant rdf:resource="http://api.stardog.com/ingredients#wine_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_528">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_529"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_530"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_530">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"wine_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_532">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"ingredients_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_531">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_533"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_532"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_533">
+	<rr:constant rdf:resource="http://api.stardog.com/ingredients#ingredients_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_535">
+	<rr:constant rdf:resource="http://api.stardog.com/ingredients#ref-wine_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_534">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_535"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_536"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_536">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/wine/wine_id={"ingredients_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_538">
+	<rr:constant rdf:resource="http://api.stardog.com/ingredients#ref-grape_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_537">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_538"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_539"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_539">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/grape/grape_id={"ingredients_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_541">
+	<rr:constant rdf:resource="http://api.stardog.com/ingredients"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_540">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_542"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_541"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_542">
+	<rr:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_544">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"grape_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_543">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_545"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_544"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_545">
+	<rr:constant rdf:resource="http://api.stardog.com/ingredients#grape_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_547">
+	<rr:constant rdf:resource="http://api.stardog.com/wine#ref-region_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_546">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_547"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_548"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_548">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/region/region_id={"wine_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:about="tag:stardog:api:mapping:generated:mapping-1765505076">
+	<rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_546"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_549"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_552"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_555"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_558"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_561"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_565"/>
+	<rr:predicateObjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_568"/>
+	<rr:logicalTable rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_571"/>
+	<rr:subjectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_564"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_550">
+	<rr:constant rdf:resource="http://api.stardog.com/wine#wine_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_549">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_550"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_551"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_551">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"wine_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_553">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"sweetness"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_552">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_554"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_553"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_554">
+	<rr:constant rdf:resource="http://api.stardog.com/wine#sweetness"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_556">
+	<rr:constant rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_555">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_556"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_557"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_557">
+	<rr:constant rdf:resource="http://api.stardog.com/wine"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_559">
+	<rr:constant rdf:resource="http://api.stardog.com/wine#body"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_558">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_559"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_560"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_560">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"body"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_562">
+	<rr:constant rdf:resource="http://api.stardog.com/wine#name"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_561">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_562"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_563"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_563">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"name"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_564">
+	<rr:termType rdf:resource="http://www.w3.org/ns/r2rml#IRI"/>
+	<rr:template rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://api.stardog.com/wine/wine_id={"wine_id"}</rr:template>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_566">
+	<rr:constant rdf:resource="http://api.stardog.com/wine#wine_type"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_565">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_566"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_567"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_567">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"wine_type"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_569">
+	<rr:constant rdf:resource="http://api.stardog.com/wine#region_id"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_568">
+	<rr:predicateMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_569"/>
+	<rr:objectMap rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_570"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_570">
+	<rr:column rdf:datatype="http://www.w3.org/2001/XMLSchema#string">"region_id"</rr:column>
+	<rr:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="bnode_d17ff542_e5a3_4d52_b041_b5759ffda8be_571">
+	<rr:sqlQuery rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SELECT *
+FROM "public"."wine"
+INNER JOIN "public"."region" ON "wine"."region_id" = "region"."region_id"</rr:sqlQuery>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=1">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlas Mountains</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=1"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=1">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">France</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=2">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Durbanville</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=2"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=2">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=3">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constantia</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=3"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=3">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Africa</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=4">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stellenbosch</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=4"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=4">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Australia</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=5">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swartland</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=5"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=5">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Zealand</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=6">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Rioja</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=6"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=6">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chile</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=7">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mendoza</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=7"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=7">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argentina</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=8">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rio Negro</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=8"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=8">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germany</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=9">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maipo Valley</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=9"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=9">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Italy</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=10">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Casablanca Valley</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=10">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greece</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=11">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Choapa Valley</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/country/country_id=11">
+	<rdf:type rdf:resource="http://api.stardog.com/country"/>
+	<country_id xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</country_id>
+	<name xmlns="http://api.stardog.com/country#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morocco</name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=12">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=13">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michigan</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=14">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New Mexico</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=15">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bordeaux</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=16">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burgundy</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=17">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Champagne</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=18">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jura</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=19">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhone</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=19"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=20">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baden</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=20"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=21">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheinhesson</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=21"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=22">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saxony</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=22"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=23">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macedonia</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=23"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=24">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aegean Islands</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=24"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=25">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ionian Islands</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=25"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=26">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lombardy</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=26"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=27">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Piedmont</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=27"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=28">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuscany</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=28"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=29">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sardinia</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=29"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/region/region_id=30">
+	<rdf:type rdf:resource="http://api.stardog.com/region"/>
+	<country_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</country_id>
+	<name xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malborough</name>
+	<region_id xmlns="http://api.stardog.com/region#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</region_id>
+	<ref-country_id xmlns="http://api.stardog.com/region#" rdf:resource="http://api.stardog.com/country/country_id=30"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=1">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=1"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=1"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=1">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=1"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chateau des Tours</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=1">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cabernet Sauvignon</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=2">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=2"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=2"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=2">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=2"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villeneuve Rivesaltes Ambre</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=2">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinot Noir</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=3">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=3"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=3"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=3">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=3"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Papillon Blanc</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=3">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinot Grigio</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=4">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=4"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=4"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=4">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=4"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Feudi di San Gregorio</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=4">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riesling</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=5">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=5"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=5"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=5">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=5"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mastroberardino</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=5">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chardonnay</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=6">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=6"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=6"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=6">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=6"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">off-dry</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cloudy Bay Sauvignon Blanc</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=6">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sauvignon Blanc</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=7">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=7"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=7"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=7">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=7"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">off-dry</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pavillan blanc de chateaux margaux</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=7">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nebbiolo</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=8">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=8"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=8"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=8">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=8"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">off-dry</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sancere les baronnes</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=8">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shiraz</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=9">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=9"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=9"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=9">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=9"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dom Perignon Brut</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=9">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Syrah</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=10">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=10"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=10"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=10">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=10"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dry</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bollinger R.D Extra Brut</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=10">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tempranillo</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=11">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=11"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=11"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=11">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=11"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mount Pleasant Elizabeth Semillon</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=11">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semillon</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=12">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=12"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=12"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=12">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=12"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Ouwingerdreeks Kokerboom</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=12">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pinotage</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=13">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=13"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=13"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=13">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=13"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NaN</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balanced</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bionic Frog</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=13">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ortega</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=14">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=14"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=14"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=14">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=14"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NaN</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boekenhoutskloof The Chocolate Block</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=14">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greco</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=15">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=15"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=15"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=15">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=15"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shafer Vineyards Relentless</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=15">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Primitivo</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=16">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=16"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=16"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=16">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=16"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweet</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Light</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ridge Vineyards Geyserville</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=16">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zinfandel</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=17">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=17"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=17"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=17">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=17"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matchbook Tinto Rey</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=17">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grenache Blanc</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">White</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=18">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=18"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=18"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/wine/wine_id=18">
+	<rdf:type rdf:resource="http://api.stardog.com/wine"/>
+	<ref-region_id xmlns="http://api.stardog.com/wine#" rdf:resource="http://api.stardog.com/region/region_id=18"/>
+	<wine_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</wine_id>
+	<sweetness xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NaN</sweetness>
+	<body xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Full</body>
+	<name xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sessantanni Old Vines Primitivo di Manduria</name>
+	<wine_type xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</wine_type>
+	<region_id xmlns="http://api.stardog.com/wine#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</region_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/grape/grape_id=18">
+	<rdf:type rdf:resource="http://api.stardog.com/grape"/>
+	<name xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Grenache</name>
+	<grape_id xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</grape_id>
+	<colour xmlns="http://api.stardog.com/grape#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noir</colour>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=19">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=19"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=19"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=20">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=20"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=20"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/ingredients/ingredients_id=21">
+	<rdf:type rdf:resource="http://api.stardog.com/ingredients"/>
+	<wine_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</wine_id>
+	<ingredients_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ingredients_id>
+	<ref-wine_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/wine/wine_id=21"/>
+	<ref-grape_id xmlns="http://api.stardog.com/ingredients#" rdf:resource="http://api.stardog.com/grape/grape_id=21"/>
+	<grape_id xmlns="http://api.stardog.com/ingredients#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</grape_id>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=1">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=1"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropical</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=2">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=2"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropical</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=3">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=3"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropical</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=4">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=4"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floral</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=5">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=5"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">orange blossom</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=6">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=6"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropical</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=7">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=7"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gooseberry</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=8">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=8"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">melon</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=9">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=9"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gooseberry</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=10">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=10"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nectarine</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=11">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=11"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">passionfruit</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=12">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=12"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floral</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=13">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=13"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">citrus</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=14">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=14"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">herbal</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=15">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=15"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutty</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=16">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=16"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">citrus</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=17">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=17"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grapefruit</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=18">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=18"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">honey</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=19">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=19"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lime </note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=20">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=20"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floral</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=21">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=21"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropical</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=22">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=22"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fruity</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=23">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=23"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chocolate</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=24">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=24"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">berry</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/tasting_note/tastingnote_id=25">
+	<rdf:type rdf:resource="http://api.stardog.com/tasting_note"/>
+	<wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</wine_id>
+	<tastingnote_id xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</tastingnote_id>
+	<ref-wine_id xmlns="http://api.stardog.com/tasting_note#" rdf:resource="http://api.stardog.com/wine/wine_id=25"/>
+	<note xmlns="http://api.stardog.com/tasting_note#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">berry</note>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://api.stardog.com/alembic_version/version_num=64e8faaec9c6">
+	<rdf:type rdf:resource="http://api.stardog.com/alembic_version"/>
+	<version_num xmlns="http://api.stardog.com/alembic_version#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">64e8faaec9c6</version_num>
+</rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,713 @@
+<http://localhost:2020/ingredients/1> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/1> .
+<http://localhost:2020/ingredients/2> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/2> .
+<http://localhost:2020/ingredients/3> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/3> .
+<http://localhost:2020/ingredients/4> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/4> .
+<http://localhost:2020/ingredients/5> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/5> .
+<http://localhost:2020/ingredients/6> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/6> .
+<http://localhost:2020/ingredients/7> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/7> .
+<http://localhost:2020/ingredients/8> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/8> .
+<http://localhost:2020/ingredients/9> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/9> .
+<http://localhost:2020/ingredients/10> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/9> .
+<http://localhost:2020/ingredients/11> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/10> .
+<http://localhost:2020/ingredients/12> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/10> .
+<http://localhost:2020/ingredients/13> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/11> .
+<http://localhost:2020/ingredients/14> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/12> .
+<http://localhost:2020/ingredients/15> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/13> .
+<http://localhost:2020/ingredients/16> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/14> .
+<http://localhost:2020/ingredients/17> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/15> .
+<http://localhost:2020/ingredients/18> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/16> .
+<http://localhost:2020/ingredients/19> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/17> .
+<http://localhost:2020/ingredients/20> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/17> .
+<http://localhost:2020/ingredients/21> <http://localhost:2020/vocab/ingredients_wine_id> <http://localhost:2020/wine/18> .
+<http://localhost:2020/ingredients/1> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/17> .
+<http://localhost:2020/ingredients/1> <http://localhost:2020/vocab/ingredients_ingredients_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/1> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #1" .
+<http://localhost:2020/ingredients/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/2> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/17> .
+<http://localhost:2020/ingredients/2> <http://localhost:2020/vocab/ingredients_ingredients_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/2> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #2" .
+<http://localhost:2020/ingredients/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/3> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/17> .
+<http://localhost:2020/ingredients/3> <http://localhost:2020/vocab/ingredients_ingredients_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/3> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #3" .
+<http://localhost:2020/ingredients/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/4> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/14> .
+<http://localhost:2020/ingredients/4> <http://localhost:2020/vocab/ingredients_ingredients_id> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/4> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #4" .
+<http://localhost:2020/ingredients/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/5> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/14> .
+<http://localhost:2020/ingredients/5> <http://localhost:2020/vocab/ingredients_ingredients_id> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/5> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #5" .
+<http://localhost:2020/ingredients/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/6> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/6> .
+<http://localhost:2020/ingredients/6> <http://localhost:2020/vocab/ingredients_ingredients_id> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/6> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #6" .
+<http://localhost:2020/ingredients/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/7> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/6> .
+<http://localhost:2020/ingredients/7> <http://localhost:2020/vocab/ingredients_ingredients_id> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/7> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #7" .
+<http://localhost:2020/ingredients/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/8> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/6> .
+<http://localhost:2020/ingredients/8> <http://localhost:2020/vocab/ingredients_ingredients_id> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/8> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #8" .
+<http://localhost:2020/ingredients/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/9> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/5> .
+<http://localhost:2020/ingredients/9> <http://localhost:2020/vocab/ingredients_ingredients_id> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/9> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #9" .
+<http://localhost:2020/ingredients/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/10> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/2> .
+<http://localhost:2020/ingredients/10> <http://localhost:2020/vocab/ingredients_ingredients_id> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/10> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #10" .
+<http://localhost:2020/ingredients/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/11> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/5> .
+<http://localhost:2020/ingredients/11> <http://localhost:2020/vocab/ingredients_ingredients_id> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/11> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #11" .
+<http://localhost:2020/ingredients/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/12> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/2> .
+<http://localhost:2020/ingredients/12> <http://localhost:2020/vocab/ingredients_ingredients_id> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/12> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #12" .
+<http://localhost:2020/ingredients/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/13> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/11> .
+<http://localhost:2020/ingredients/13> <http://localhost:2020/vocab/ingredients_ingredients_id> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/13> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #13" .
+<http://localhost:2020/ingredients/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/14> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/11> .
+<http://localhost:2020/ingredients/14> <http://localhost:2020/vocab/ingredients_ingredients_id> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/14> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #14" .
+<http://localhost:2020/ingredients/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/15> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/9> .
+<http://localhost:2020/ingredients/15> <http://localhost:2020/vocab/ingredients_ingredients_id> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/15> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #15" .
+<http://localhost:2020/ingredients/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/16> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/9> .
+<http://localhost:2020/ingredients/16> <http://localhost:2020/vocab/ingredients_ingredients_id> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/16> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #16" .
+<http://localhost:2020/ingredients/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/17> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/9> .
+<http://localhost:2020/ingredients/17> <http://localhost:2020/vocab/ingredients_ingredients_id> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/17> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #17" .
+<http://localhost:2020/ingredients/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/18> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/16> .
+<http://localhost:2020/ingredients/18> <http://localhost:2020/vocab/ingredients_ingredients_id> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/18> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #18" .
+<http://localhost:2020/ingredients/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/19> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/10> .
+<http://localhost:2020/ingredients/19> <http://localhost:2020/vocab/ingredients_ingredients_id> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/19> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #19" .
+<http://localhost:2020/ingredients/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/20> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/8> .
+<http://localhost:2020/ingredients/20> <http://localhost:2020/vocab/ingredients_ingredients_id> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/20> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #20" .
+<http://localhost:2020/ingredients/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/ingredients/21> <http://localhost:2020/vocab/ingredients_grape_id> <http://localhost:2020/grape/15> .
+<http://localhost:2020/ingredients/21> <http://localhost:2020/vocab/ingredients_ingredients_id> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/ingredients/21> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients #21" .
+<http://localhost:2020/ingredients/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/ingredients> .
+<http://localhost:2020/tasting_note/1> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/1> .
+<http://localhost:2020/tasting_note/2> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/3> .
+<http://localhost:2020/tasting_note/3> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/4> .
+<http://localhost:2020/tasting_note/4> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/5> .
+<http://localhost:2020/tasting_note/5> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/5> .
+<http://localhost:2020/tasting_note/6> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/5> .
+<http://localhost:2020/tasting_note/7> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/6> .
+<http://localhost:2020/tasting_note/8> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/6> .
+<http://localhost:2020/tasting_note/9> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/7> .
+<http://localhost:2020/tasting_note/10> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/7> .
+<http://localhost:2020/tasting_note/11> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/7> .
+<http://localhost:2020/tasting_note/12> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/7> .
+<http://localhost:2020/tasting_note/13> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/8> .
+<http://localhost:2020/tasting_note/14> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/8> .
+<http://localhost:2020/tasting_note/15> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/9> .
+<http://localhost:2020/tasting_note/16> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/10> .
+<http://localhost:2020/tasting_note/17> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/10> .
+<http://localhost:2020/tasting_note/18> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/10> .
+<http://localhost:2020/tasting_note/19> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/11> .
+<http://localhost:2020/tasting_note/20> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/11> .
+<http://localhost:2020/tasting_note/21> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/11> .
+<http://localhost:2020/tasting_note/22> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/14> .
+<http://localhost:2020/tasting_note/23> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/14> .
+<http://localhost:2020/tasting_note/24> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/15> .
+<http://localhost:2020/tasting_note/25> <http://localhost:2020/vocab/tasting_note_wine_id> <http://localhost:2020/wine/16> .
+<http://localhost:2020/wine/1> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/30> .
+<http://localhost:2020/wine/1> <http://localhost:2020/vocab/wine_sweetness> "Medium" .
+<http://localhost:2020/wine/1> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/1> <http://www.w3.org/2000/01/rdf-schema#label> "wine #1" .
+<http://localhost:2020/wine/1> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/1> <http://localhost:2020/vocab/wine_name> "Chateau des Tours" .
+<http://localhost:2020/wine/1> <http://localhost:2020/vocab/wine_wine_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/2> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/1> .
+<http://localhost:2020/wine/2> <http://localhost:2020/vocab/wine_sweetness> "Sweet" .
+<http://localhost:2020/wine/2> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/2> <http://www.w3.org/2000/01/rdf-schema#label> "wine #2" .
+<http://localhost:2020/wine/2> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/2> <http://localhost:2020/vocab/wine_name> "Villeneuve Rivesaltes Ambre" .
+<http://localhost:2020/wine/2> <http://localhost:2020/vocab/wine_wine_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/3> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/1> .
+<http://localhost:2020/wine/3> <http://localhost:2020/vocab/wine_sweetness> "Medium" .
+<http://localhost:2020/wine/3> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/3> <http://www.w3.org/2000/01/rdf-schema#label> "wine #3" .
+<http://localhost:2020/wine/3> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/3> <http://localhost:2020/vocab/wine_name> "Papillon Blanc" .
+<http://localhost:2020/wine/3> <http://localhost:2020/vocab/wine_wine_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/4> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/9> .
+<http://localhost:2020/wine/4> <http://localhost:2020/vocab/wine_sweetness> "Medium" .
+<http://localhost:2020/wine/4> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/4> <http://www.w3.org/2000/01/rdf-schema#label> "wine #4" .
+<http://localhost:2020/wine/4> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/4> <http://localhost:2020/vocab/wine_name> "Feudi di San Gregorio" .
+<http://localhost:2020/wine/4> <http://localhost:2020/vocab/wine_wine_id> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/5> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/9> .
+<http://localhost:2020/wine/5> <http://localhost:2020/vocab/wine_sweetness> "Medium" .
+<http://localhost:2020/wine/5> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/5> <http://www.w3.org/2000/01/rdf-schema#label> "wine #5" .
+<http://localhost:2020/wine/5> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/5> <http://localhost:2020/vocab/wine_name> "Mastroberardino" .
+<http://localhost:2020/wine/5> <http://localhost:2020/vocab/wine_wine_id> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/6> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/5> .
+<http://localhost:2020/wine/6> <http://localhost:2020/vocab/wine_sweetness> "off-dry" .
+<http://localhost:2020/wine/6> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/6> <http://www.w3.org/2000/01/rdf-schema#label> "wine #6" .
+<http://localhost:2020/wine/6> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/6> <http://localhost:2020/vocab/wine_name> "Cloudy Bay Sauvignon Blanc" .
+<http://localhost:2020/wine/6> <http://localhost:2020/vocab/wine_wine_id> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/7> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/26> .
+<http://localhost:2020/wine/7> <http://localhost:2020/vocab/wine_sweetness> "off-dry" .
+<http://localhost:2020/wine/7> <http://localhost:2020/vocab/wine_body> "Full" .
+<http://localhost:2020/wine/7> <http://www.w3.org/2000/01/rdf-schema#label> "wine #7" .
+<http://localhost:2020/wine/7> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/7> <http://localhost:2020/vocab/wine_name> "Pavillan blanc de chateaux margaux" .
+<http://localhost:2020/wine/7> <http://localhost:2020/vocab/wine_wine_id> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/8> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/1> .
+<http://localhost:2020/wine/8> <http://localhost:2020/vocab/wine_sweetness> "off-dry" .
+<http://localhost:2020/wine/8> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/8> <http://www.w3.org/2000/01/rdf-schema#label> "wine #8" .
+<http://localhost:2020/wine/8> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/8> <http://localhost:2020/vocab/wine_name> "Sancere les baronnes" .
+<http://localhost:2020/wine/8> <http://localhost:2020/vocab/wine_wine_id> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/9> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/28> .
+<http://localhost:2020/wine/9> <http://localhost:2020/vocab/wine_sweetness> "Dry" .
+<http://localhost:2020/wine/9> <http://localhost:2020/vocab/wine_body> "Full" .
+<http://localhost:2020/wine/9> <http://www.w3.org/2000/01/rdf-schema#label> "wine #9" .
+<http://localhost:2020/wine/9> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/9> <http://localhost:2020/vocab/wine_name> "Dom Perignon Brut" .
+<http://localhost:2020/wine/9> <http://localhost:2020/vocab/wine_wine_id> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/10> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/28> .
+<http://localhost:2020/wine/10> <http://localhost:2020/vocab/wine_sweetness> "Dry" .
+<http://localhost:2020/wine/10> <http://localhost:2020/vocab/wine_body> "Full" .
+<http://localhost:2020/wine/10> <http://www.w3.org/2000/01/rdf-schema#label> "wine #10" .
+<http://localhost:2020/wine/10> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/10> <http://localhost:2020/vocab/wine_name> "Bollinger R.D Extra Brut" .
+<http://localhost:2020/wine/10> <http://localhost:2020/vocab/wine_wine_id> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/11> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/4> .
+<http://localhost:2020/wine/11> <http://localhost:2020/vocab/wine_sweetness> "Medium" .
+<http://localhost:2020/wine/11> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/11> <http://www.w3.org/2000/01/rdf-schema#label> "wine #11" .
+<http://localhost:2020/wine/11> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/11> <http://localhost:2020/vocab/wine_name> "Mount Pleasant Elizabeth Semillon" .
+<http://localhost:2020/wine/11> <http://localhost:2020/vocab/wine_wine_id> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/12> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/16> .
+<http://localhost:2020/wine/12> <http://localhost:2020/vocab/wine_sweetness> "Sweet" .
+<http://localhost:2020/wine/12> <http://localhost:2020/vocab/wine_body> "Light" .
+<http://localhost:2020/wine/12> <http://www.w3.org/2000/01/rdf-schema#label> "wine #12" .
+<http://localhost:2020/wine/12> <http://localhost:2020/vocab/wine_wine_type> "White" .
+<http://localhost:2020/wine/12> <http://localhost:2020/vocab/wine_name> "Die Ouwingerdreeks Kokerboom" .
+<http://localhost:2020/wine/12> <http://localhost:2020/vocab/wine_wine_id> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/13> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/2> .
+<http://localhost:2020/wine/13> <http://localhost:2020/vocab/wine_sweetness> "NaN" .
+<http://localhost:2020/wine/13> <http://localhost:2020/vocab/wine_body> "Balanced" .
+<http://localhost:2020/wine/13> <http://www.w3.org/2000/01/rdf-schema#label> "wine #13" .
+<http://localhost:2020/wine/13> <http://localhost:2020/vocab/wine_wine_type> "Red" .
+<http://localhost:2020/wine/13> <http://localhost:2020/vocab/wine_name> "Bionic Frog" .
+<http://localhost:2020/wine/13> <http://localhost:2020/vocab/wine_wine_id> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/14> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/3> .
+<http://localhost:2020/wine/14> <http://localhost:2020/vocab/wine_sweetness> "NaN" .
+<http://localhost:2020/wine/14> <http://localhost:2020/vocab/wine_body> "Full" .
+<http://localhost:2020/wine/14> <http://www.w3.org/2000/01/rdf-schema#label> "wine #14" .
+<http://localhost:2020/wine/14> <http://localhost:2020/vocab/wine_wine_type> "Red" .
+<http://localhost:2020/wine/14> <http://localhost:2020/vocab/wine_name> "Boekenhoutskloof The Chocolate Block" .
+<http://localhost:2020/wine/14> <http://localhost:2020/vocab/wine_wine_id> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/15> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/23> .
+<http://localhost:2020/wine/15> <http://localhost:2020/vocab/wine_sweetness> "Medium" .
+<http://localhost:2020/wine/15> <http://localhost:2020/vocab/wine_body> "Light" .
+<http://localhost:2020/wine/15> <http://www.w3.org/2000/01/rdf-schema#label> "wine #15" .
+<http://localhost:2020/wine/15> <http://localhost:2020/vocab/wine_wine_type> "Red" .
+<http://localhost:2020/wine/15> <http://localhost:2020/vocab/wine_name> "Shafer Vineyards Relentless" .
+<http://localhost:2020/wine/15> <http://localhost:2020/vocab/wine_wine_id> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/16> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/23> .
+<http://localhost:2020/wine/16> <http://localhost:2020/vocab/wine_sweetness> "Sweet" .
+<http://localhost:2020/wine/16> <http://localhost:2020/vocab/wine_body> "Light" .
+<http://localhost:2020/wine/16> <http://www.w3.org/2000/01/rdf-schema#label> "wine #16" .
+<http://localhost:2020/wine/16> <http://localhost:2020/vocab/wine_wine_type> "Red" .
+<http://localhost:2020/wine/16> <http://localhost:2020/vocab/wine_name> "Ridge Vineyards Geyserville" .
+<http://localhost:2020/wine/16> <http://localhost:2020/vocab/wine_wine_id> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/17> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/23> .
+<http://localhost:2020/wine/17> <http://localhost:2020/vocab/wine_sweetness> "Medium" .
+<http://localhost:2020/wine/17> <http://localhost:2020/vocab/wine_body> "Full" .
+<http://localhost:2020/wine/17> <http://www.w3.org/2000/01/rdf-schema#label> "wine #17" .
+<http://localhost:2020/wine/17> <http://localhost:2020/vocab/wine_wine_type> "Red" .
+<http://localhost:2020/wine/17> <http://localhost:2020/vocab/wine_name> "Matchbook Tinto Rey" .
+<http://localhost:2020/wine/17> <http://localhost:2020/vocab/wine_wine_id> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/wine/18> <http://localhost:2020/vocab/wine_region_id> <http://localhost:2020/region/9> .
+<http://localhost:2020/wine/18> <http://localhost:2020/vocab/wine_sweetness> "NaN" .
+<http://localhost:2020/wine/18> <http://localhost:2020/vocab/wine_body> "Full" .
+<http://localhost:2020/wine/18> <http://www.w3.org/2000/01/rdf-schema#label> "wine #18" .
+<http://localhost:2020/wine/18> <http://localhost:2020/vocab/wine_wine_type> "Red" .
+<http://localhost:2020/wine/18> <http://localhost:2020/vocab/wine_name> "Sessantanni Old Vines Primitivo di Manduria" .
+<http://localhost:2020/wine/18> <http://localhost:2020/vocab/wine_wine_id> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/wine/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/wine> .
+<http://localhost:2020/region/1> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/11> .
+<http://localhost:2020/region/1> <http://localhost:2020/vocab/region_name> "Atlas Mountains" .
+<http://localhost:2020/region/1> <http://localhost:2020/vocab/region_region_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/1> <http://www.w3.org/2000/01/rdf-schema#label> "region #1" .
+<http://localhost:2020/region/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/2> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/3> .
+<http://localhost:2020/region/2> <http://localhost:2020/vocab/region_name> "Durbanville" .
+<http://localhost:2020/region/2> <http://localhost:2020/vocab/region_region_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/2> <http://www.w3.org/2000/01/rdf-schema#label> "region #2" .
+<http://localhost:2020/region/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/3> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/3> .
+<http://localhost:2020/region/3> <http://localhost:2020/vocab/region_name> "Constantia" .
+<http://localhost:2020/region/3> <http://localhost:2020/vocab/region_region_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/3> <http://www.w3.org/2000/01/rdf-schema#label> "region #3" .
+<http://localhost:2020/region/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/4> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/3> .
+<http://localhost:2020/region/4> <http://localhost:2020/vocab/region_name> "Stellenbosch" .
+<http://localhost:2020/region/4> <http://localhost:2020/vocab/region_region_id> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/4> <http://www.w3.org/2000/01/rdf-schema#label> "region #4" .
+<http://localhost:2020/region/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/5> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/3> .
+<http://localhost:2020/region/5> <http://localhost:2020/vocab/region_name> "Swartland" .
+<http://localhost:2020/region/5> <http://localhost:2020/vocab/region_region_id> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/5> <http://www.w3.org/2000/01/rdf-schema#label> "region #5" .
+<http://localhost:2020/region/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/6> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/7> .
+<http://localhost:2020/region/6> <http://localhost:2020/vocab/region_name> "La Rioja" .
+<http://localhost:2020/region/6> <http://localhost:2020/vocab/region_region_id> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/6> <http://www.w3.org/2000/01/rdf-schema#label> "region #6" .
+<http://localhost:2020/region/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/7> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/7> .
+<http://localhost:2020/region/7> <http://localhost:2020/vocab/region_name> "Mendoza" .
+<http://localhost:2020/region/7> <http://localhost:2020/vocab/region_region_id> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/7> <http://www.w3.org/2000/01/rdf-schema#label> "region #7" .
+<http://localhost:2020/region/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/8> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/7> .
+<http://localhost:2020/region/8> <http://localhost:2020/vocab/region_name> "Rio Negro" .
+<http://localhost:2020/region/8> <http://localhost:2020/vocab/region_region_id> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/8> <http://www.w3.org/2000/01/rdf-schema#label> "region #8" .
+<http://localhost:2020/region/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/9> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/6> .
+<http://localhost:2020/region/9> <http://localhost:2020/vocab/region_name> "Maipo Valley" .
+<http://localhost:2020/region/9> <http://localhost:2020/vocab/region_region_id> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/9> <http://www.w3.org/2000/01/rdf-schema#label> "region #9" .
+<http://localhost:2020/region/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/10> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/6> .
+<http://localhost:2020/region/10> <http://localhost:2020/vocab/region_name> "Casablanca Valley" .
+<http://localhost:2020/region/10> <http://localhost:2020/vocab/region_region_id> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/10> <http://www.w3.org/2000/01/rdf-schema#label> "region #10" .
+<http://localhost:2020/region/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/11> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/6> .
+<http://localhost:2020/region/11> <http://localhost:2020/vocab/region_name> "Choapa Valley" .
+<http://localhost:2020/region/11> <http://localhost:2020/vocab/region_region_id> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/11> <http://www.w3.org/2000/01/rdf-schema#label> "region #11" .
+<http://localhost:2020/region/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/12> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/2> .
+<http://localhost:2020/region/12> <http://localhost:2020/vocab/region_name> "California" .
+<http://localhost:2020/region/12> <http://localhost:2020/vocab/region_region_id> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/12> <http://www.w3.org/2000/01/rdf-schema#label> "region #12" .
+<http://localhost:2020/region/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/13> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/2> .
+<http://localhost:2020/region/13> <http://localhost:2020/vocab/region_name> "Michigan" .
+<http://localhost:2020/region/13> <http://localhost:2020/vocab/region_region_id> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/13> <http://www.w3.org/2000/01/rdf-schema#label> "region #13" .
+<http://localhost:2020/region/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/14> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/2> .
+<http://localhost:2020/region/14> <http://localhost:2020/vocab/region_name> "New Mexico" .
+<http://localhost:2020/region/14> <http://localhost:2020/vocab/region_region_id> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/14> <http://www.w3.org/2000/01/rdf-schema#label> "region #14" .
+<http://localhost:2020/region/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/15> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/1> .
+<http://localhost:2020/region/15> <http://localhost:2020/vocab/region_name> "Bordeaux" .
+<http://localhost:2020/region/15> <http://localhost:2020/vocab/region_region_id> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/15> <http://www.w3.org/2000/01/rdf-schema#label> "region #15" .
+<http://localhost:2020/region/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/16> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/1> .
+<http://localhost:2020/region/16> <http://localhost:2020/vocab/region_name> "Burgundy" .
+<http://localhost:2020/region/16> <http://localhost:2020/vocab/region_region_id> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/16> <http://www.w3.org/2000/01/rdf-schema#label> "region #16" .
+<http://localhost:2020/region/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/17> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/1> .
+<http://localhost:2020/region/17> <http://localhost:2020/vocab/region_name> "Champagne" .
+<http://localhost:2020/region/17> <http://localhost:2020/vocab/region_region_id> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/17> <http://www.w3.org/2000/01/rdf-schema#label> "region #17" .
+<http://localhost:2020/region/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/18> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/1> .
+<http://localhost:2020/region/18> <http://localhost:2020/vocab/region_name> "Jura" .
+<http://localhost:2020/region/18> <http://localhost:2020/vocab/region_region_id> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/18> <http://www.w3.org/2000/01/rdf-schema#label> "region #18" .
+<http://localhost:2020/region/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/19> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/1> .
+<http://localhost:2020/region/19> <http://localhost:2020/vocab/region_name> "Rhone" .
+<http://localhost:2020/region/19> <http://localhost:2020/vocab/region_region_id> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/19> <http://www.w3.org/2000/01/rdf-schema#label> "region #19" .
+<http://localhost:2020/region/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/20> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/8> .
+<http://localhost:2020/region/20> <http://localhost:2020/vocab/region_name> "Baden" .
+<http://localhost:2020/region/20> <http://localhost:2020/vocab/region_region_id> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/20> <http://www.w3.org/2000/01/rdf-schema#label> "region #20" .
+<http://localhost:2020/region/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/21> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/8> .
+<http://localhost:2020/region/21> <http://localhost:2020/vocab/region_name> "Rheinhesson" .
+<http://localhost:2020/region/21> <http://localhost:2020/vocab/region_region_id> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/21> <http://www.w3.org/2000/01/rdf-schema#label> "region #21" .
+<http://localhost:2020/region/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/22> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/8> .
+<http://localhost:2020/region/22> <http://localhost:2020/vocab/region_name> "Saxony" .
+<http://localhost:2020/region/22> <http://localhost:2020/vocab/region_region_id> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/22> <http://www.w3.org/2000/01/rdf-schema#label> "region #22" .
+<http://localhost:2020/region/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/23> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/10> .
+<http://localhost:2020/region/23> <http://localhost:2020/vocab/region_name> "Macedonia" .
+<http://localhost:2020/region/23> <http://localhost:2020/vocab/region_region_id> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/23> <http://www.w3.org/2000/01/rdf-schema#label> "region #23" .
+<http://localhost:2020/region/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/24> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/10> .
+<http://localhost:2020/region/24> <http://localhost:2020/vocab/region_name> "Aegean Islands" .
+<http://localhost:2020/region/24> <http://localhost:2020/vocab/region_region_id> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/24> <http://www.w3.org/2000/01/rdf-schema#label> "region #24" .
+<http://localhost:2020/region/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/25> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/10> .
+<http://localhost:2020/region/25> <http://localhost:2020/vocab/region_name> "Ionian Islands" .
+<http://localhost:2020/region/25> <http://localhost:2020/vocab/region_region_id> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/25> <http://www.w3.org/2000/01/rdf-schema#label> "region #25" .
+<http://localhost:2020/region/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/26> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/9> .
+<http://localhost:2020/region/26> <http://localhost:2020/vocab/region_name> "Lombardy" .
+<http://localhost:2020/region/26> <http://localhost:2020/vocab/region_region_id> "26"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/26> <http://www.w3.org/2000/01/rdf-schema#label> "region #26" .
+<http://localhost:2020/region/26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/27> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/9> .
+<http://localhost:2020/region/27> <http://localhost:2020/vocab/region_name> "Piedmont" .
+<http://localhost:2020/region/27> <http://localhost:2020/vocab/region_region_id> "27"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/27> <http://www.w3.org/2000/01/rdf-schema#label> "region #27" .
+<http://localhost:2020/region/27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/28> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/9> .
+<http://localhost:2020/region/28> <http://localhost:2020/vocab/region_name> "Tuscany" .
+<http://localhost:2020/region/28> <http://localhost:2020/vocab/region_region_id> "28"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/28> <http://www.w3.org/2000/01/rdf-schema#label> "region #28" .
+<http://localhost:2020/region/28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/29> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/9> .
+<http://localhost:2020/region/29> <http://localhost:2020/vocab/region_name> "Sardinia" .
+<http://localhost:2020/region/29> <http://localhost:2020/vocab/region_region_id> "29"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/29> <http://www.w3.org/2000/01/rdf-schema#label> "region #29" .
+<http://localhost:2020/region/29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/region/30> <http://localhost:2020/vocab/region_country_id> <http://localhost:2020/country/5> .
+<http://localhost:2020/region/30> <http://localhost:2020/vocab/region_name> "Malborough" .
+<http://localhost:2020/region/30> <http://localhost:2020/vocab/region_region_id> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/region/30> <http://www.w3.org/2000/01/rdf-schema#label> "region #30" .
+<http://localhost:2020/region/30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/region> .
+<http://localhost:2020/tasting_note/1> <http://localhost:2020/vocab/tasting_note_note> "tropical" .
+<http://localhost:2020/tasting_note/1> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/1> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #1" .
+<http://localhost:2020/tasting_note/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/2> <http://localhost:2020/vocab/tasting_note_note> "tropical" .
+<http://localhost:2020/tasting_note/2> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/2> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #2" .
+<http://localhost:2020/tasting_note/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/3> <http://localhost:2020/vocab/tasting_note_note> "tropical" .
+<http://localhost:2020/tasting_note/3> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/3> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #3" .
+<http://localhost:2020/tasting_note/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/4> <http://localhost:2020/vocab/tasting_note_note> "floral" .
+<http://localhost:2020/tasting_note/4> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/4> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #4" .
+<http://localhost:2020/tasting_note/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/5> <http://localhost:2020/vocab/tasting_note_note> "orange blossom" .
+<http://localhost:2020/tasting_note/5> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/5> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #5" .
+<http://localhost:2020/tasting_note/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/6> <http://localhost:2020/vocab/tasting_note_note> "tropical" .
+<http://localhost:2020/tasting_note/6> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/6> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #6" .
+<http://localhost:2020/tasting_note/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/7> <http://localhost:2020/vocab/tasting_note_note> "gooseberry" .
+<http://localhost:2020/tasting_note/7> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/7> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #7" .
+<http://localhost:2020/tasting_note/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/8> <http://localhost:2020/vocab/tasting_note_note> "melon" .
+<http://localhost:2020/tasting_note/8> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/8> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #8" .
+<http://localhost:2020/tasting_note/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/9> <http://localhost:2020/vocab/tasting_note_note> "gooseberry" .
+<http://localhost:2020/tasting_note/9> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/9> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #9" .
+<http://localhost:2020/tasting_note/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/10> <http://localhost:2020/vocab/tasting_note_note> "nectarine" .
+<http://localhost:2020/tasting_note/10> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/10> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #10" .
+<http://localhost:2020/tasting_note/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/11> <http://localhost:2020/vocab/tasting_note_note> "passionfruit" .
+<http://localhost:2020/tasting_note/11> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/11> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #11" .
+<http://localhost:2020/tasting_note/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/12> <http://localhost:2020/vocab/tasting_note_note> "floral" .
+<http://localhost:2020/tasting_note/12> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/12> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #12" .
+<http://localhost:2020/tasting_note/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/13> <http://localhost:2020/vocab/tasting_note_note> "citrus" .
+<http://localhost:2020/tasting_note/13> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/13> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #13" .
+<http://localhost:2020/tasting_note/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/14> <http://localhost:2020/vocab/tasting_note_note> "herbal" .
+<http://localhost:2020/tasting_note/14> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/14> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #14" .
+<http://localhost:2020/tasting_note/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/15> <http://localhost:2020/vocab/tasting_note_note> "nutty" .
+<http://localhost:2020/tasting_note/15> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/15> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #15" .
+<http://localhost:2020/tasting_note/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/16> <http://localhost:2020/vocab/tasting_note_note> "citrus" .
+<http://localhost:2020/tasting_note/16> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/16> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #16" .
+<http://localhost:2020/tasting_note/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/17> <http://localhost:2020/vocab/tasting_note_note> "grapefruit" .
+<http://localhost:2020/tasting_note/17> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/17> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #17" .
+<http://localhost:2020/tasting_note/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/18> <http://localhost:2020/vocab/tasting_note_note> "honey" .
+<http://localhost:2020/tasting_note/18> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/18> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #18" .
+<http://localhost:2020/tasting_note/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/19> <http://localhost:2020/vocab/tasting_note_note> "lime " .
+<http://localhost:2020/tasting_note/19> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "19"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/19> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #19" .
+<http://localhost:2020/tasting_note/19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/20> <http://localhost:2020/vocab/tasting_note_note> "floral" .
+<http://localhost:2020/tasting_note/20> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/20> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #20" .
+<http://localhost:2020/tasting_note/20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/21> <http://localhost:2020/vocab/tasting_note_note> "tropical" .
+<http://localhost:2020/tasting_note/21> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "21"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/21> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #21" .
+<http://localhost:2020/tasting_note/21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/22> <http://localhost:2020/vocab/tasting_note_note> "fruity" .
+<http://localhost:2020/tasting_note/22> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "22"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/22> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #22" .
+<http://localhost:2020/tasting_note/22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/23> <http://localhost:2020/vocab/tasting_note_note> "chocolate" .
+<http://localhost:2020/tasting_note/23> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "23"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/23> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #23" .
+<http://localhost:2020/tasting_note/23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/24> <http://localhost:2020/vocab/tasting_note_note> "berry" .
+<http://localhost:2020/tasting_note/24> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/24> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #24" .
+<http://localhost:2020/tasting_note/24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/tasting_note/25> <http://localhost:2020/vocab/tasting_note_note> "berry" .
+<http://localhost:2020/tasting_note/25> <http://localhost:2020/vocab/tasting_note_tastingnote_id> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/tasting_note/25> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note #25" .
+<http://localhost:2020/tasting_note/25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/tasting_note> .
+<http://localhost:2020/grape/1> <http://localhost:2020/vocab/grape_grape_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/1> <http://www.w3.org/2000/01/rdf-schema#label> "grape #1" .
+<http://localhost:2020/grape/1> <http://localhost:2020/vocab/grape_name> "Cabernet Sauvignon" .
+<http://localhost:2020/grape/1> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/2> <http://localhost:2020/vocab/grape_grape_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/2> <http://www.w3.org/2000/01/rdf-schema#label> "grape #2" .
+<http://localhost:2020/grape/2> <http://localhost:2020/vocab/grape_name> "Pinot Noir" .
+<http://localhost:2020/grape/2> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/3> <http://localhost:2020/vocab/grape_grape_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/3> <http://www.w3.org/2000/01/rdf-schema#label> "grape #3" .
+<http://localhost:2020/grape/3> <http://localhost:2020/vocab/grape_name> "Pinot Grigio" .
+<http://localhost:2020/grape/3> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/4> <http://localhost:2020/vocab/grape_grape_id> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/4> <http://www.w3.org/2000/01/rdf-schema#label> "grape #4" .
+<http://localhost:2020/grape/4> <http://localhost:2020/vocab/grape_name> "Riesling" .
+<http://localhost:2020/grape/4> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/5> <http://localhost:2020/vocab/grape_grape_id> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/5> <http://www.w3.org/2000/01/rdf-schema#label> "grape #5" .
+<http://localhost:2020/grape/5> <http://localhost:2020/vocab/grape_name> "Chardonnay" .
+<http://localhost:2020/grape/5> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/6> <http://localhost:2020/vocab/grape_grape_id> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/6> <http://www.w3.org/2000/01/rdf-schema#label> "grape #6" .
+<http://localhost:2020/grape/6> <http://localhost:2020/vocab/grape_name> "Sauvignon Blanc" .
+<http://localhost:2020/grape/6> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/7> <http://localhost:2020/vocab/grape_grape_id> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/7> <http://www.w3.org/2000/01/rdf-schema#label> "grape #7" .
+<http://localhost:2020/grape/7> <http://localhost:2020/vocab/grape_name> "Nebbiolo" .
+<http://localhost:2020/grape/7> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/8> <http://localhost:2020/vocab/grape_grape_id> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/8> <http://www.w3.org/2000/01/rdf-schema#label> "grape #8" .
+<http://localhost:2020/grape/8> <http://localhost:2020/vocab/grape_name> "Shiraz" .
+<http://localhost:2020/grape/8> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/9> <http://localhost:2020/vocab/grape_grape_id> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/9> <http://www.w3.org/2000/01/rdf-schema#label> "grape #9" .
+<http://localhost:2020/grape/9> <http://localhost:2020/vocab/grape_name> "Syrah" .
+<http://localhost:2020/grape/9> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/10> <http://localhost:2020/vocab/grape_grape_id> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/10> <http://www.w3.org/2000/01/rdf-schema#label> "grape #10" .
+<http://localhost:2020/grape/10> <http://localhost:2020/vocab/grape_name> "Tempranillo" .
+<http://localhost:2020/grape/10> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/11> <http://localhost:2020/vocab/grape_grape_id> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/11> <http://www.w3.org/2000/01/rdf-schema#label> "grape #11" .
+<http://localhost:2020/grape/11> <http://localhost:2020/vocab/grape_name> "Semillon" .
+<http://localhost:2020/grape/11> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/12> <http://localhost:2020/vocab/grape_grape_id> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/12> <http://www.w3.org/2000/01/rdf-schema#label> "grape #12" .
+<http://localhost:2020/grape/12> <http://localhost:2020/vocab/grape_name> "Pinotage" .
+<http://localhost:2020/grape/12> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/13> <http://localhost:2020/vocab/grape_grape_id> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/13> <http://www.w3.org/2000/01/rdf-schema#label> "grape #13" .
+<http://localhost:2020/grape/13> <http://localhost:2020/vocab/grape_name> "Ortega" .
+<http://localhost:2020/grape/13> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/14> <http://localhost:2020/vocab/grape_grape_id> "14"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/14> <http://www.w3.org/2000/01/rdf-schema#label> "grape #14" .
+<http://localhost:2020/grape/14> <http://localhost:2020/vocab/grape_name> "Greco" .
+<http://localhost:2020/grape/14> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/15> <http://localhost:2020/vocab/grape_grape_id> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/15> <http://www.w3.org/2000/01/rdf-schema#label> "grape #15" .
+<http://localhost:2020/grape/15> <http://localhost:2020/vocab/grape_name> "Primitivo" .
+<http://localhost:2020/grape/15> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/16> <http://localhost:2020/vocab/grape_grape_id> "16"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/16> <http://www.w3.org/2000/01/rdf-schema#label> "grape #16" .
+<http://localhost:2020/grape/16> <http://localhost:2020/vocab/grape_name> "Zinfandel" .
+<http://localhost:2020/grape/16> <http://localhost:2020/vocab/grape_colour> "Red" .
+<http://localhost:2020/grape/16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/17> <http://localhost:2020/vocab/grape_grape_id> "17"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/17> <http://www.w3.org/2000/01/rdf-schema#label> "grape #17" .
+<http://localhost:2020/grape/17> <http://localhost:2020/vocab/grape_name> "Grenache Blanc" .
+<http://localhost:2020/grape/17> <http://localhost:2020/vocab/grape_colour> "White" .
+<http://localhost:2020/grape/17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/grape/18> <http://localhost:2020/vocab/grape_grape_id> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/grape/18> <http://www.w3.org/2000/01/rdf-schema#label> "grape #18" .
+<http://localhost:2020/grape/18> <http://localhost:2020/vocab/grape_name> "Grenache" .
+<http://localhost:2020/grape/18> <http://localhost:2020/vocab/grape_colour> "Noir" .
+<http://localhost:2020/grape/18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/grape> .
+<http://localhost:2020/country/1> <http://localhost:2020/vocab/country_name> "France" .
+<http://localhost:2020/country/1> <http://localhost:2020/vocab/country_country_id> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/1> <http://www.w3.org/2000/01/rdf-schema#label> "country #1" .
+<http://localhost:2020/country/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/2> <http://localhost:2020/vocab/country_name> "USA" .
+<http://localhost:2020/country/2> <http://localhost:2020/vocab/country_country_id> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/2> <http://www.w3.org/2000/01/rdf-schema#label> "country #2" .
+<http://localhost:2020/country/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/3> <http://localhost:2020/vocab/country_name> "South Africa" .
+<http://localhost:2020/country/3> <http://localhost:2020/vocab/country_country_id> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/3> <http://www.w3.org/2000/01/rdf-schema#label> "country #3" .
+<http://localhost:2020/country/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/4> <http://localhost:2020/vocab/country_name> "Australia" .
+<http://localhost:2020/country/4> <http://localhost:2020/vocab/country_country_id> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/4> <http://www.w3.org/2000/01/rdf-schema#label> "country #4" .
+<http://localhost:2020/country/4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/5> <http://localhost:2020/vocab/country_name> "New Zealand" .
+<http://localhost:2020/country/5> <http://localhost:2020/vocab/country_country_id> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/5> <http://www.w3.org/2000/01/rdf-schema#label> "country #5" .
+<http://localhost:2020/country/5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/6> <http://localhost:2020/vocab/country_name> "Chile" .
+<http://localhost:2020/country/6> <http://localhost:2020/vocab/country_country_id> "6"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/6> <http://www.w3.org/2000/01/rdf-schema#label> "country #6" .
+<http://localhost:2020/country/6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/7> <http://localhost:2020/vocab/country_name> "Argentina" .
+<http://localhost:2020/country/7> <http://localhost:2020/vocab/country_country_id> "7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/7> <http://www.w3.org/2000/01/rdf-schema#label> "country #7" .
+<http://localhost:2020/country/7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/8> <http://localhost:2020/vocab/country_name> "Germany" .
+<http://localhost:2020/country/8> <http://localhost:2020/vocab/country_country_id> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/8> <http://www.w3.org/2000/01/rdf-schema#label> "country #8" .
+<http://localhost:2020/country/8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/9> <http://localhost:2020/vocab/country_name> "Italy" .
+<http://localhost:2020/country/9> <http://localhost:2020/vocab/country_country_id> "9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/9> <http://www.w3.org/2000/01/rdf-schema#label> "country #9" .
+<http://localhost:2020/country/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/10> <http://localhost:2020/vocab/country_name> "Greece" .
+<http://localhost:2020/country/10> <http://localhost:2020/vocab/country_country_id> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/10> <http://www.w3.org/2000/01/rdf-schema#label> "country #10" .
+<http://localhost:2020/country/10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/country/11> <http://localhost:2020/vocab/country_name> "Morocco" .
+<http://localhost:2020/country/11> <http://localhost:2020/vocab/country_country_id> "11"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://localhost:2020/country/11> <http://www.w3.org/2000/01/rdf-schema#label> "country #11" .
+<http://localhost:2020/country/11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/country> .
+<http://localhost:2020/alembic_version/64e8faaec9c6> <http://www.w3.org/2000/01/rdf-schema#label> "alembic_version #64e8faaec9c6" .
+<http://localhost:2020/alembic_version/64e8faaec9c6> <http://localhost:2020/vocab/alembic_version_version_num> "64e8faaec9c6" .
+<http://localhost:2020/alembic_version/64e8faaec9c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://localhost:2020/vocab/alembic_version> .
+<http://localhost:2020/vocab/wine_name> <http://www.w3.org/2000/01/rdf-schema#label> "wine name" .
+<http://localhost:2020/vocab/wine_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/grape> <http://www.w3.org/2000/01/rdf-schema#label> "grape" .
+<http://localhost:2020/vocab/grape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://localhost:2020/vocab/wine_region_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/region_name> <http://www.w3.org/2000/01/rdf-schema#label> "region name" .
+<http://localhost:2020/vocab/region_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/ingredients> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients" .
+<http://localhost:2020/vocab/ingredients> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://localhost:2020/vocab/country_country_id> <http://www.w3.org/2000/01/rdf-schema#label> "country country_id" .
+<http://localhost:2020/vocab/country_country_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/grape_grape_id> <http://www.w3.org/2000/01/rdf-schema#label> "grape grape_id" .
+<http://localhost:2020/vocab/grape_grape_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/region_country_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/tasting_note_note> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note note" .
+<http://localhost:2020/vocab/tasting_note_note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/wine_wine_type> <http://www.w3.org/2000/01/rdf-schema#label> "wine wine_type" .
+<http://localhost:2020/vocab/wine_wine_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/ingredients_grape_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/tasting_note> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note" .
+<http://localhost:2020/vocab/tasting_note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://localhost:2020/vocab/tasting_note_wine_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/ingredients_wine_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/alembic_version> <http://www.w3.org/2000/01/rdf-schema#label> "alembic_version" .
+<http://localhost:2020/vocab/alembic_version> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://localhost:2020/vocab/region> <http://www.w3.org/2000/01/rdf-schema#label> "region" .
+<http://localhost:2020/vocab/region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://localhost:2020/vocab/wine_wine_id> <http://www.w3.org/2000/01/rdf-schema#label> "wine wine_id" .
+<http://localhost:2020/vocab/wine_wine_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/country_name> <http://www.w3.org/2000/01/rdf-schema#label> "country name" .
+<http://localhost:2020/vocab/country_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/wine_sweetness> <http://www.w3.org/2000/01/rdf-schema#label> "wine sweetness" .
+<http://localhost:2020/vocab/wine_sweetness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/tasting_note_tastingnote_id> <http://www.w3.org/2000/01/rdf-schema#label> "tasting_note tastingnote_id" .
+<http://localhost:2020/vocab/tasting_note_tastingnote_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/wine_body> <http://www.w3.org/2000/01/rdf-schema#label> "wine body" .
+<http://localhost:2020/vocab/wine_body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/grape_name> <http://www.w3.org/2000/01/rdf-schema#label> "grape name" .
+<http://localhost:2020/vocab/grape_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/wine> <http://www.w3.org/2000/01/rdf-schema#label> "wine" .
+<http://localhost:2020/vocab/wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://localhost:2020/vocab/region_region_id> <http://www.w3.org/2000/01/rdf-schema#label> "region region_id" .
+<http://localhost:2020/vocab/region_region_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/country> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
+<http://localhost:2020/vocab/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://localhost:2020/vocab/grape_colour> <http://www.w3.org/2000/01/rdf-schema#label> "grape colour" .
+<http://localhost:2020/vocab/grape_colour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/ingredients_ingredients_id> <http://www.w3.org/2000/01/rdf-schema#label> "ingredients ingredients_id" .
+<http://localhost:2020/vocab/ingredients_ingredients_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://localhost:2020/vocab/alembic_version_version_num> <http://www.w3.org/2000/01/rdf-schema#label> "alembic_version version_num" .
+<http://localhost:2020/vocab/alembic_version_version_num> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .

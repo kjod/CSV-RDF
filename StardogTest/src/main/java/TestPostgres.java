@@ -142,7 +142,7 @@ public class TestPostgres {
             //properties.put("base","http://example.com/test/");
             System.out.println(org.postgresql.Driver.isRegistered());
             properties.put("jdbc.driver", "org.postgresql.Driver");
-            properties.put("jdbc.url","jdbc:postgresql://localhost:5432/incognitotest2");
+            properties.put("jdbc.url","jdbc:postgresql://localhost:5432/incognitotest");
             properties.put("jdbc.username","postgres");
             properties.put("jdbc.password","postgres");
             Iterable<com.stardog.stark.Statement> emptyIterator = new ArrayList<com.stardog.stark.Statement>();
